@@ -13,6 +13,6 @@ vim.opt.rtp:prepend(lazypath)
 
 require("core.options")
 require("core.keymaps")
+require("core.autocmd")
 require("lazy").setup("plugins")
-require("lazy").setup("plugins.lsp")
 vim.cmd("colorscheme rose-pine")

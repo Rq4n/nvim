@@ -13,3 +13,6 @@ keymap.set("n", "sl", "<C-w>l", opts)
 
 keymap.set("n", "gds", ":belowright split | lua vim.lsp.buf.definition()<CR>", opts)
 keymap.set("n", "gdv", ":vsplit | lua vim.lsp.buf.definition()<CR>", opts)
+
+-- vim.api.nvim_set_keymap("i", "jj", "<Esc>", { noremap = false })
+-- vim.api.nvim_set_keymap("i", "jk", "<Esc>", { noremap = false })
