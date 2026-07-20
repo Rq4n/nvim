@@ -54,6 +54,7 @@ return {
 						},
 						staticcheck = true,
 						gofumpt = true,
+						goimports = true,
 					},
 				},
 			})
@@ -177,7 +178,7 @@ return {
 					"typescript",
 					"javascriptreact",
 					"typescriptreact",
-	      				"svelte",
+					"svelte",
 				},
 			})
 		end,

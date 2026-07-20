@@ -32,12 +32,10 @@ return {
 				"ts_ls",
 				"svelte",
 				"tailwindcss",
-				"astro",
 				"html",
 				"cssls",
 				"emmet_ls",
 				"emmet_language_server",
-				"marksman",
 			},
 		})
 
@@ -46,10 +44,7 @@ return {
 				"biome",
 				"prettier",
 				"stylua",
-				"isort",
-				"pylint",
 				"clangd",
-				"denols",
 			},
 		})
 	end,
